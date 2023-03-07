@@ -740,15 +740,15 @@
       "scripts": [
         {
           "name": "发送验证码(填手机号,保存,再执行)",
-          "script": "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010_send_sms.js"
+          "script": "https://raw.githubusercontent.com/dahai9/10010V3/main/surge/modules/10010v3/10010_send_sms.js"
         },
         {
           "name": "用验证码登录(填手机号,验证码,保存,再执行)",
-          "script": "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010_sms_sign.js"
+          "script": "https://raw.githubusercontent.com/dahai9/10010V3/main/surge/modules/10010v3/10010_sms_sign.js"
         },
         {
           "name": "手动执行",
-          "script": "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v3/10010.js"
+          "script": "https://raw.githubusercontent.com/dahai9/10010V3/main/surge/modules/10010v3/10010.js"
         }
       ],
       "settings": [
