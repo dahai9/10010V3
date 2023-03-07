@@ -65,7 +65,7 @@ const detail = {}
   const appId = $.getdata(KEY_APPID)
   const mobile = $.getdata(KEY_MOBILE)
   const password = $.getdata(KEY_PASSWORD)
-
+  $.log(cookie)
   if (!cookie && (!appId || !mobile || !password)) {
     throw new Error('⚠️ 请配置 Cookie 或 appId, 手机号(mobile), 密码(password) 记得保存')
   }
