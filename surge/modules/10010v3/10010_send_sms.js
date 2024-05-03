@@ -36,7 +36,7 @@ async function send({ mobile }) {
   $.log('〽️ 开始')
   const res = await $.http.post({
     url: 'https://m.client.10010.com/mobileService/sendRadomNum.htm',
-    body: transParams({ mobile: RSAEncrypt(mobile), 'version': 'iphone_c@9.0100'}),
+    body: transParams({ mobile: RSAEncrypt(mobile), 'version': 'iphone_c@11.0400'}),
     headers: {
       "Content-Type": "application/x-www-form-urlencoded"
     }
