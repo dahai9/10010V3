@@ -39,8 +39,7 @@ const KEY_APPID = '@xream.10010.appId'
 
 async function sign({  mobile, code  }) {
   $.log('〽️ 开始')
-  $.log(`手机号: ${mobile}`)
-  $.log(`验证码: ${code}`)
+  $.log(RSAEncrypt(code))
   $.log(RSAEncrypt(code))
   const res = await $.http.post({
     url: 'https://m.client.10010.com/mobileService/radomLogin.htm',
