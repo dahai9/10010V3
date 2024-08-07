@@ -41,7 +41,7 @@ async function sign({  mobile, code  }) {
   $.log('〽️ 开始')
   const res = await $.http.post({
     url: 'https://m.client.10010.com/mobileService/radomLogin.htm',
-    body: transParams({ mobile: RSAEncrypt(mobile),password: RSAEncrypt(code), appId: random(160), 'version': 'iphone_c@11.0400'}),
+    body: transParams({ mobile: RSAEncrypt(mobile),password: RSAEncrypt(code), appId: random(160), 'version': 'iphone_c@11.0503'}),
     headers: {
       "Content-Type": "application/x-www-form-urlencoded"
     }
