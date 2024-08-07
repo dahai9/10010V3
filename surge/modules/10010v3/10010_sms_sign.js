@@ -40,7 +40,7 @@ const KEY_APPID = '@xream.10010.appId'
 async function sign({  mobile, code  }) {
   $.log('〽️ 开始')
   $.log(RSAEncrypt(code))
-  $.log(RSAEncrypt(code))
+  $.log('1')
   const res = await $.http.post({
     url: 'https://m.client.10010.com/mobileService/radomLogin.htm',
     body: transParams({ mobile: RSAEncrypt(mobile),password: RSAEncrypt(code), 'appId': 'ChinaunicomMobileBusiness', 'version': 'iphone_c@11.0503', 'netWay': 'Wifi'}),
