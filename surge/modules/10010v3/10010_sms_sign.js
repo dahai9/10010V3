@@ -43,7 +43,7 @@ async function sign({  mobile, code  }) {
   $.log('1')
   const res = await $.http.post({
     url: 'https://m.client.10010.com/mobileService/radomLogin.htm',
-    body: transParams({ mobile: RSAEncrypt(mobile),password: RSAEncrypt(code), 'appId': 'ChinaunicomMobileBusiness', 'version': 'iphone_c@11.0503', 'netWay': 'Wifi'}),
+    body: transParams({ mobile: RSAEncrypt(mobile),password: RSAEncrypt(code), 'appId': 'ChinaunicomMobileBusiness', 'version': 'iphone_c@12.0001', 'netWay': 'Wifi'}),
     headers: {
       "Content-Type": "application/x-www-form-urlencoded"
     }
