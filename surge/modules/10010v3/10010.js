@@ -603,7 +603,7 @@ async function sign({ mobile, password, appId }) {
       mobile: RSAEncrypt(mobile),
       password: RSAEncrypt(password),
       appId,
-      version: 'iphone_c@11.0400',
+      version: 'iphone_c@12.0001',
     }),
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
